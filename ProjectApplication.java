@@ -13,7 +13,7 @@ import java.time.Instant;
 
 @SpringBootApplication
 public class ProjectApplication {
-
+ 
 	private static final Logger logger = LoggerFactory.getLogger(ProjectApplication.class);
 	private static final int INTERVAL = 10_000_000;
 	private static final int THREADS = Runtime.getRuntime().availableProcessors();
